@@ -1,0 +1,12 @@
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.zoom-image {
+  height: 200px; /* Set the initial height of the image */
+  object-fit: cover; /* Ensure the image covers the entire space */
+}

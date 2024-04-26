@@ -1,0 +1,32 @@
+/* Add stylish fonts */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Enhance team member images */
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 4px solid #ffffff; /* Add border */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+/* Improve hover effects */
+.our-team .picture::before {
+  background-color: rgba(168, 196, 13, 0.9); /* Change background color */
+}
+
+.our-team:hover .picture img {
+  transform: scale(0.95); /* Reduce scale on hover */
+}
+
+/* Add background effects */
+/*.container {
+  background-color: #f7f5ec;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+
+
+/* Optimize layout */
