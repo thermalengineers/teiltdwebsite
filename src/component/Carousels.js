@@ -19,7 +19,7 @@ function ControlledCarousel() {
 
   return (
     <Carousel
-      style={{ position: "relative", top: "2rem" }}
+      style={{ position: "relative", marginTop:"6rem"}}
       activeIndex={index}
       onSelect={handleSelect}
     >

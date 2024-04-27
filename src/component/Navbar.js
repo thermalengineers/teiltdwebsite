@@ -11,11 +11,13 @@ function Navbar() {
   return (
     <nav
       style={{
-        position: "fixed",
-        backgroundColor: "white",
-        padding: "1rem",
-        zIndex: "999",
-        width: "98vw",
+        position:"fixed",
+        top:"0",
+        left:"0",
+        zIndex:"999",
+        width:"100%",
+        backgroundColor:"#fff",
+        padding:"0.5rem"
       }}
     >
       <div
@@ -33,7 +35,7 @@ function Navbar() {
           }}
         >
           <img src={logo} style={{ height: "60px", width: "60px" }}></img>
-          <div style={{ marginLeft: "15px" }}>
+          <div style={{ marginLeft: "15px", display:"flex" }}>
             <h3 style={{ color: "#0A494F" }}>
               Thermal Engineers & Insulators Pvt. Ltd.
             </h3>
@@ -82,7 +84,7 @@ function Navbar() {
             position: "absolute",
             top: "100%",
             right: 0,
-            backgroundColor: "rgb(44 214 135 / 17%)",
+            backgroundColor:"white",
             backdropFilter: "blur(10px)",
             position: "absolute",
             zIndex: "999",
@@ -95,7 +97,7 @@ function Navbar() {
               <a
                 className="hamoption"
                 href="#home"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
                 Home
               </a>
@@ -104,7 +106,7 @@ function Navbar() {
               <a
                 className="hamoption"
                 href="#About"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
                 About
               </a>
@@ -113,7 +115,7 @@ function Navbar() {
               <a
                 className="hamoption"
                 href="#Services"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
                 Services
               </a>
@@ -122,7 +124,7 @@ function Navbar() {
               <a
                 className="hamoption"
                 href="#Contact"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
                 Contact
               </a>
@@ -131,7 +133,7 @@ function Navbar() {
               <a
                 className="hamoption"
                 href="#Project"
-                style={{ color: "white", textDecoration: "none" }}
+                style={{ color: "black", textDecoration: "none" }}
               >
                 Project
               </a>

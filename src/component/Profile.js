@@ -18,12 +18,12 @@ const TeamMember = ({ name, title, imgUrl, about,post }) => (
         <p>{about}</p>
         <h4 className="title">{title}</h4>
       </div>
-       {/* <ul className="social">
+        {/* <ul className="social">
         <li><a href="https://codepen.io/collection/XdWJOQ/" className="fa fa-facebook" aria-hidden="true"></a></li>
         <li><a href="https://codepen.io/collection/XdWJOQ/" className="fa fa-twitter" aria-hidden="true"></a></li>
         <li><a href="https://codepen.io/collection/XdWJOQ/" className="fa fa-google-plus" aria-hidden="true"></a></li>
         <li><a href="https://codepen.io/collection/XdWJOQ/" className="fa fa-linkedin" aria-hidden="true"></a></li>
-      </ul>  */}
+      </ul>   */}
     </div>
   </div>
 );

@@ -10,7 +10,7 @@ import AllCards from "./component/AllCards";
 import MyCard from "./component/MyCard";
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid main" >
       <Navbar />
       <Carousels />
       <MyCard />
